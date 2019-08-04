@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+    overflow: hidden;
+}
+
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cccccc;
+}
+
+.excel {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.snakeBody {
+    background: yellow;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.head {
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.mouse {
+    background: rgb(27, 35, 145);
+    background-size: cover; 
+}
